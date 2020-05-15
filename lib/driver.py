@@ -28,7 +28,7 @@ while True:
         try:
             typeof = str(type(eval(path)))
             if 'function' in typeof:
-                path += '(*args)'
+                path += '(**args)' if 'dict' in str(type(args)) else '(*args)'
 
             response['data'] = eval(path)
         except Exception as e:
