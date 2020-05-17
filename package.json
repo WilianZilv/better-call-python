@@ -1,13 +1,14 @@
 {
     "name": "better-call-python",
     "version": "1.0.2",
-    "description": "",
+    "description": "A super simple yet effective node to python ipc",
     "main": "index.js",
     "scripts": {
         "dev": "nodemon index.js"
     },
     "keywords": [
-        "python"
+        "python",
+        "ipc"
     ],
     "author": "Wilian da Silva",
     "license": "MIT",

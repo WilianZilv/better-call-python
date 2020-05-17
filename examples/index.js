@@ -34,4 +34,6 @@ const path = require("path");
     console.log("number === ", await python.call("number"));
     console.timeEnd("time");
     python.quit();
-})();
+});
+
+const python = new Python();
