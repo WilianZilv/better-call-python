@@ -1,24 +1,24 @@
 {
-  "name": "better-call-python",
-  "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon index.js"
-  },
-  "keywords": [
-    "python"
-  ],
-  "author": "Wilian da Silva",
-  "license": "MIT",
-  "repository": {
-    "url": "https://github.com/WilianZilv/better-call-python.git"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  },
-  "dependencies": {
-    "cross-spawn": "^7.0.2",
-    "tree-kill": "^1.2.2"
-  }
+    "name": "better-call-python",
+    "version": "1.0.2",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js"
+    },
+    "keywords": [
+        "python"
+    ],
+    "author": "Wilian da Silva",
+    "license": "MIT",
+    "repository": {
+        "url": "https://github.com/WilianZilv/better-call-python.git"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    },
+    "dependencies": {
+        "cross-spawn": "^7.0.2",
+        "tree-kill": "^1.2.2"
+    }
 }
